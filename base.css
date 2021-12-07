@@ -1,0 +1,208 @@
+body{
+    background-color: #fdffb6;
+    margin: 0px;
+    padding: 0px;
+}
+.logo img{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 85%;
+    height: 80vh;
+    border-radius: 25px;
+    box-shadow: 5px 5px 4px 1px #f79648,-5px -5px 4px 1px #f79648;
+    border: solid #583101 3px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.navbar ul{
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #240046;
+    margin-right: 18px;
+    margin-left: 18px;
+    position: relative;
+    width: 190px;
+    text-align: center;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    border: solid #fff3b0 1px;
+    border-radius: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #f7cad0;
+    font-size: 25px;
+    cursor: context-menu;
+}
+.navbar ul li ul li a:hover{
+    color: #343a40;
+    background-color: #ade8f4;
+    display: flex;
+    justify-content: space-around;
+    border-radius:15px;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover >ul{
+    display: block;
+}
+.navbar ul li ul li a:hover{
+    cursor: pointer;
+}
+.navbar ul ul ul{
+    margin-left: 110px;
+    top: 0px;
+    position: absolute;
+}
+.text{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #152614;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #161a1d;
+}
+.list ul li a:hover{
+    background-color: #001d3d;
+    color: #ccff33;
+    padding: 10px;
+    border-radius: 25px;
+}
+/* 
+.navbar{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+.navbar ul li{
+    display: inline-block;
+    background-color: #370617;
+    padding: 7px;
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: center;
+    text-decoration: none;
+    border: solid firebrick;
+    border-radius: 7px;
+}
+.navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: larger;
+}*/
+#new ul li{
+    margin: 0px 90px;
+}
+#new ul li a{
+    display: flex;
+    justify-content: space-around;
+}
+.image img{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 85px;
+    border:solid #583101 5px;
+    border-radius: 10px;
+}
+#na img{
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border:solid #583101 5px;
+    border-radius: 10px;
+}
+.image a{
+    text-decoration: none;
+    text-align: left;
+    font-size: large;
+    color:#ffc300;
+    background-color: #78081c;
+    padding: 10px;
+    border:solid #583101 2px;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Andada Pro', serif;;
+}
+h3{
+    font-size: 20px;
+    padding:30px;
+    padding-top: 0px;
+    color: #152614;
+} 
+.fixed a{
+    background-color: white;
+    color: black;
+    font-style: bold;
+    position: fixed;
+    text-decoration: none;
+    font-size: 20px;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    right:30px;
+    bottom:12px;
+}
+.fixedd a{
+    font-style: bold;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: fixed;
+    text-decoration: none;
+    font-size: 20px;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    right:130px;
+    bottom:12px;
+}
+#base a{
+    right:30px;
+}
+.foot{
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.foot ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.active{
+    background-color: rgb(53, 102, 34);
+}
